@@ -1,0 +1,26 @@
+{
+  "name": "z-container",
+  "version": "1.0.0",
+  "description": "A container to save and retreive data / object references, etc.",
+  "main": "container.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeeCoder/z-container.git"
+  },
+  "keywords": [
+    "container"
+  ],
+  "author": "Hubert Viktor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZeeCoder/z-container/issues"
+  },
+  "homepage": "https://github.com/ZeeCoder/z-container#readme",
+  "devDependencies": {
+    "clone": "^1.0.2",
+    "mocha": "^2.2.5"
+  }
+}
