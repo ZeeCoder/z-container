@@ -6,6 +6,10 @@ module.exports = {
         this.container[key] = data;
     },
 
+    has: function(key) {
+        return this.container[key] !== undefined;
+    },
+
     get: function(key) {
         if (this.container[key] === undefined) {
             return null;

@@ -1,6 +1,6 @@
 {
   "name": "z-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A container to save and retreive data / object references, etc.",
   "main": "container.js",
   "scripts": {

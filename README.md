@@ -13,6 +13,9 @@ var container = require('z-container');
 
 container.add('some_object_reference', object_reference);
 
+container.has('some_object_reference');
+// -> true, only if the key really exists in the container
+
 // Returns the previously saved reference.
 // This is useful, when CommonJS modules compiled to the web need to access a
 // certain module which was instantiated by the `new` operator.

@@ -28,4 +28,12 @@ describe('container.js', function () {
             assert.equal(null, this.container.get('non_existent_key'));
         });
     });
+
+    describe('#has', function () {
+        it('should return true only if a key exists in the container', function() {
+            this.container.add('test-key', 'test-value');
+            assert.equal(true, this.container.has('test-key'));
+            assert.equal(false, this.container.has('non-existent-key'));
+        });
+    });
 });
